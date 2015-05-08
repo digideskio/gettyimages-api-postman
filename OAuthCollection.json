@@ -1,0 +1,37 @@
+{
+  "id":"01a77496-1ce8-fbc3-87bd-467983560657",
+  "name":"OAuth",
+  "timestamp":1431098568085,
+  "requests":[
+    {
+      "collectionId":"01a77496-1ce8-fbc3-87bd-467983560657",
+      "id":"a7841476-3cca-606d-4d8f-87f998549180",
+      "name":"Client Credentials",
+      "description":"provide apikey and secret",
+      "url":"https://api.gettyimages.com/oauth2/token",
+      "method":"POST",
+      "headers":"",
+      "data":[
+        {
+          "key":"grant_type",
+          "value":"client_credentials",
+          "type":"text"
+        },
+        {
+          "key":"client_id",
+          "value":"",
+          "type":"text"
+        },
+        {
+          "key":"client_secret",
+          "value":"",
+          "type":"text"
+        }
+      ],
+      "dataMode":"urlencoded",
+      "timestamp":0,
+      "responses":[],
+      "version":2
+      }
+    ]
+} 
