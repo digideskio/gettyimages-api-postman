@@ -1,0 +1,39 @@
+{
+	"id": "4bb4d0c8-7ac3-4b3a-50b2-6d2e93f73c2b",
+	"name": "Search",
+	"description": "# Search Operations",
+	"order": [
+		"c52fa4bf-3a51-6221-4039-497dd3616de5"
+	],
+	"folders": [],
+	"timestamp": 1431108751735,
+	"synced": false,
+	"owner": "10741",
+	"sharedWithTeam": false,
+	"subscribed": false,
+	"remoteLink": "",
+	"public": false,
+	"write": true,
+	"requests": [
+		{
+			"id": "c52fa4bf-3a51-6221-4039-497dd3616de5",
+			"headers": "Authorization: Bearer {{token}}\nApi-Key: \n",
+			"url": "https://api.gettyimages.com/v3/search/images?phrase=Kitties",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1431108821436,
+			"name": "Blended Search",
+			"description": "",
+			"collectionId": "4bb4d0c8-7ac3-4b3a-50b2-6d2e93f73c2b",
+			"responses": [],
+			"synced": false
+		}
+	]
+}
