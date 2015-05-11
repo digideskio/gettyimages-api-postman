@@ -1,0 +1,179 @@
+{
+    "id": "d0d51d3f-0486-9da0-7bfe-e681738aa0b6",
+    "name": "Download",
+    "description": "",
+    "order": [
+        "09a839f6-2e5c-237a-a72d-2d181e4e65ec"
+    ],
+    "folders": [ ],
+    "timestamp": 1431119814000,
+    "synced": false,
+    "owner": "10741",
+    "sharedWithTeam": false,
+    "subscribed": false,
+    "remoteLink": "",
+    "public": false,
+    "write": true,
+    "requests": [
+        {
+            "id": "09a839f6-2e5c-237a-a72d-2d181e4e65ec",
+            "headers": "Api-Key: djatnvykr6ygt3wyr7tu9d6e\nAuthorization: Bearer {{Api-Key}}",
+            "url": "https://api.gettyimages.com/v3/downloads/images/83454804?auto_download=false&product_type=easyaccess",
+            "preRequestScript": "",
+            "pathVariables": { },
+            "method": "POST",
+            "data": [ ],
+            "dataMode": "raw",
+            "version": 2,
+            "tests": "",
+            "currentHelper": "normal",
+            "helperAttributes": { },
+            "time": 1431357224645,
+            "name": "Download Image",
+            "description": "",
+            "collectionId": "d0d51d3f-0486-9da0-7bfe-e681738aa0b6",
+            "responses": [
+                {
+                    "status": "",
+                    "responseCode": {
+                        "code": 200,
+                        "name": "OK",
+                        "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+                    },
+                    "time": 821,
+                    "headers": [
+                        {
+                            "name": "Access-Control-Allow-Headers",
+                            "key": "Access-Control-Allow-Headers",
+                            "value": "Origin, Accept, Content-Type, Accept-Language, Api-Key, Authorization",
+                            "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+                        },
+                        {
+                            "name": "Access-Control-Allow-Methods",
+                            "key": "Access-Control-Allow-Methods",
+                            "value": "OPTIONS, POST, GET, PUT, DELETE",
+                            "description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+                        },
+                        {
+                            "name": "Access-Control-Allow-Origin",
+                            "key": "Access-Control-Allow-Origin",
+                            "value": "*",
+                            "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+                        },
+                        {
+                            "name": "Access-Control-Expose-Headers",
+                            "key": "Access-Control-Expose-Headers",
+                            "value": "X-Mashery-Error-Code, X-Mashery-Responder",
+                            "description": "Lets a server whitelist headers that browsers are allowed to access."
+                        },
+                        {
+                            "name": "Access-Control-Max-Age",
+                            "key": "Access-Control-Max-Age",
+                            "value": "3600",
+                            "description": "Indicates how long the results of a preflight request can be cached in seconds."
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "key": "Cache-Control",
+                            "value": "no-cache,no-cache",
+                            "description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+                        },
+                        {
+                            "name": "Connection",
+                            "key": "Connection",
+                            "value": "keep-alive",
+                            "description": "Options that are desired for the connection"
+                        },
+                        {
+                            "name": "Content-Language",
+                            "key": "Content-Language",
+                            "value": "en-US",
+                            "description": "The language the content is in"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "key": "Content-Length",
+                            "value": "508",
+                            "description": "The length of the response body in octets (8-bit bytes)"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "key": "Content-Type",
+                            "value": "application/json",
+                            "description": "The mime type of this content"
+                        },
+                        {
+                            "name": "Date",
+                            "key": "Date",
+                            "value": "Fri, 08 May 2015 21:25:16 GMT",
+                            "description": "The date and time that the message was sent"
+                        },
+                        {
+                            "name": "Expires",
+                            "key": "Expires",
+                            "value": "-1",
+                            "description": "Gives the date/time after which the response is considered stale"
+                        },
+                        {
+                            "name": "GI-Coordination-Id",
+                            "key": "GI-Coordination-Id",
+                            "value": "auto_-ustfbphehkmfZuQ2EWCsiQ",
+                            "description": "Custom header"
+                        },
+                        {
+                            "name": "Pragma",
+                            "key": "Pragma",
+                            "value": "no-cache",
+                            "description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+                        },
+                        {
+                            "name": "Server",
+                            "key": "Server",
+                            "value": "Microsoft-IIS/7.0",
+                            "description": "A name for the server"
+                        },
+                        {
+                            "name": "X-Mashery-Responder",
+                            "key": "X-Mashery-Responder",
+                            "value": "prod-j-worker-us-west-1b-43.mashery.com",
+                            "description": "Custom header"
+                        },
+                        {
+                            "name": "X-Powered-By",
+                            "key": "X-Powered-By",
+                            "value": "ASP.NET, ARR/2.5, ASP.NET",
+                            "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+                        }
+                    ],
+                    "cookies": [ ],
+                    "mime": "",
+                    "text": "{\n  \"uri\": \"https://delivery.gettyimages.com/xa/83454804.jpg?...\"\n}",
+                    "language": "javascript",
+                    "rawDataType": "text",
+                    "state": {
+                        "size": "normal"
+                    },
+                    "previewType": "html",
+                    "searchResultScrolledTo": -1,
+                    "forceRaw": false,
+                    "write": true,
+                    "runTests": true,
+                    "id": "47dd61fd-5c7b-79cf-0a63-aa0da271e156",
+                    "name": "test",
+                    "request": {
+                        "url": "https://api.gettyimages.com/v3/downloads/images/83454804?auto_download=false&product_type=easyaccess",
+                        "pathVariables": { },
+                        "data": "",
+                        "headers": "Api-Key: djatnvykr6ygt3wyr7tu9d6e\nAuthorization: Bearer {{Api-Key}}\n",
+                        "dataMode": "raw",
+                        "method": "POST",
+                        "tests": "",
+                        "version": 2
+                    }
+                }
+            ],
+            "synced": false,
+            "rawModeData": ""
+        }
+    ]
+}
